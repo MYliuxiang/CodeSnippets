@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LXCreatColletion</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)creatCollection
+{
+    
+    self.layout.itemSize = CGSizeMake(112, 184);
+    self.layout.minimumLineSpacing = 16;
+    self.layout.minimumInteritemSpacing = 16;
+    self.layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    self.layout.sectionInset = UIEdgeInsetsMake(0, 16, 0, 16);
+    
+    
+    [self.collectionView registerNib:[UINib nibWithNibName:@"TradingCell" bundle:nil] forCellWithReuseIdentifier:@"TradingCellID"];
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A043B637-8574-4C35-81FC-E46EF24D2F51</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>creatColletion</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
